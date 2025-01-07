@@ -6,6 +6,8 @@
     background-color:rgb(218, 218, 218);
 }
 header{
-    width: 15%;
     display: block;
+}
+img{
+    width: 10%;
 }
