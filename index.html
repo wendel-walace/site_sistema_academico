@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stilos.css">
-    <title>Login Sistema Academico</title>
+    <title>Sistema Acadêmico</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img 
-    </header>
-    <div id="container">
-        <div>div1</div>
-        <div>div2</div>
-        <div>div3</div>
+    <div class="content">
+        <header>
+            <h1>Sistema Acadêmico</h1>
+        </header>
+        <main class="grid-layout">
+            <section class="card">
+                <h2>Acesso Administrativo</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="admin-login">Login</label>
+                        <input type="text" id="admin-login" placeholder="nome.sobrenome">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                        <a href="#">Esqueceu sua senha?</a>
+                        <button type="submit">Entrar</button>
+                    </div>
+                </form>
+                <div class="ou">
+                    <span>OU</span>
+                </div>
+                <button class="govbr">Entrar com <strong>gov.br</strong></button>
+                <div class="Acesso-Estu">
+                    <h2>Acesso Estudante / Responsável</h2>
+                    <button class="btn-estu">Área do EStudante</button>
+                    <p>Acompanhe o desenvolvimento do Sistema Acadêmico</p>
+                    <button class="btn-rqst">Planilha com Requisitos</button>
+                </div>
+            </section>
+        </main>
     </div>
-
+    
 </body>
 </html>
