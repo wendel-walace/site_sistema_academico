@@ -45,5 +45,86 @@ header h1 {
 /* Formulário */
 .form-group {
     display: flex;
-    flex-direction
+    flex-direction: column;
+    gap: 10px;
 }
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+.form-group button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Divisor */
+.ou {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.ou span {
+    background-color: #f4f4f4;
+    padding: 0 10px;
+    position: relative;
+    top: -10px;
+}
+
+.ou::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+}
+
+/* Botão gov.br */
+.govbr {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.govbr:hover {
+    background-color: #218838;
+}
+
+/* Acesso Estudante / Responsável */
+.Acesso-Estu {
+    margin-top: 20px
