@@ -12,14 +12,6 @@ body {
     background-color: #f4f4f4;
 }
 
-header h1 {
-    color: #0056b3;
-    font-size: 30px;
-    background-color: black;
-    padding: 10px;
-    margin: 0;
-}
-
 h2 {
     padding: 10px;
     margin-inline: 10px;
@@ -34,6 +26,7 @@ h2 {
     min-height: 400px;
     width: 19%;
     margin-left: 10px;
+    padding-left: 10px;
     background-color: rgb(218, 218, 218);
 }
 
