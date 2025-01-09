@@ -11,6 +11,13 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+h1 {
+    color: #0056b3;
+    font-size: 30px;
+    background-color:black;
+    padding:10px;
+    margin: 0;
+}
 
 h2 {
     padding: 10px;
@@ -46,5 +53,5 @@ h2 {
 }
 
 #botao:hover {
-    background-color: #67daee;
+    background-color: gray;
 }
