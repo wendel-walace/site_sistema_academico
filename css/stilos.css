@@ -46,11 +46,6 @@ h2 {
     background-color: rgb(218, 218, 218);
 }
 
-h1 {
-    color: blue;
-    background-color: black;
-}
-
 #botao {
     display: flex;
     align-items: center;
