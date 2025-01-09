@@ -34,14 +34,14 @@ h2 {
     width: 19%;
     margin-left: 10px;
     padding-left: 10px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(231, 231, 231);
 }
 
 #botao {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f4f4f4;
+    background-color: rgb(231, 231, 231);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
