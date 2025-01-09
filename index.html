@@ -3,41 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stilos.css">
     <title>Sistema Acadêmico</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="content">
-        <header>
-            <h1>Sistema Acadêmico</h1>
-        </header>
-        <main class="grid-layout">
-            <section class="card">
-                <h2>Acesso Administrativo</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="admin-login">Login (nome.sobrenome)</label>
-                        <input type="text" id="admin-login" name="username" placeholder="nome.sobrenome">
-                        <label for="senha">Senha</label>
-                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
-                        <a href="#">Esqueceu sua senha?</a>
-                        <button type="submit">Entrar</button>
-                    </div>
-                </form>
-                <div class="ou">
-                    <span>OU</span>
-                </div>
-                <button id="botao" type="submit">Entrar com
-                    <img src="img/govbr-colorido-b.png" alt="imagem do gov" width="60" height="30">
-                </button>
-                <div class="Acesso-Estu">
-                    <h2>Acesso Estudante / Responsável</h2>
-                    <button class="btn-estu">Área do Estudante</button>
-                    <p>Acompanhe o desenvolvimento do Sistema Acadêmico</p>
-                    <button class="btn-rqst">Planilha com Requisitos</button>
-                </div>
-            </section>
-        </main>
-    </div>
+    <header>
+        <h1>Sistema Acadêmico</h1>
+    </header>
+    <h2>Acesso Administrativo</h2>
+    <section class="content">
+        <div id="container">
+            <form action="">
+                <label for="username">Login (nome.sobrenome)</label>
+                <input type="text" id="username" name="username">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="ou">
+            <span>OU</span>
+        </div>
+        <button id="botao" type="submit">Entrar com
+            <img src="img/govbr-colorido-b.png" alt="imagem do gov" width="60" height="30">
+        </button>
+        <div class="Acesso-Estu">
+            <h2>Acesso Estudante / Responsável</h2>
+            <button class="btn-estu">Área do Estudante</button>
+            <p>Acompanhe o desenvolvimento do Sistema Acadêmico</p>
+            <button class="btn-rqst">Planilha com Requisitos</button>
+        </div>
+    </section>
 </body>
 </html>
