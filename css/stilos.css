@@ -126,12 +126,14 @@ input{
 .ou{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     margin: 20px 0;
     gap: 10px;
     font-size: 20px;
     font-weight: bold;
     color: black;
+    width: 19%;
 }
 .ou hr{
     flex: 1;
