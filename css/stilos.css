@@ -29,7 +29,6 @@ h2 {
 
 .container-pai {
     display: flex;
-    flex-direction: column; /* Adicionado para alinhar os itens verticalmente */
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
@@ -142,6 +141,7 @@ input {
     font-size: 20px;
     font-weight: bold;
     color: black;
+    width: 19%;
 }
 
 .ou hr {
