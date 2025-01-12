@@ -29,7 +29,7 @@ h2 {
 
 .container-pai {
     display: flex;
-    flex-direction: column; /* Adicionado para alinhar os itens verticalmente */
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
@@ -38,7 +38,7 @@ h2 {
 
 #container {
     display: flex;
-    flex-direction: column; /* Adicionado para alinhar os itens verticalmente */
+    flex-direction: column;
     padding: 20px;
     background-color: rgb(231, 231, 231);
     border-radius: 8px;
@@ -94,7 +94,7 @@ input {
     font-size: 20px;
     font-weight: bold;
     color: black;
-    width: 100%; /* Adicionado para garantir que a div ocupe toda a largura disponível */
+    width: 100%;
 }
 
 .ou hr {
@@ -178,5 +178,5 @@ input {
 }
 
 .btn-rqst:hover {
-    background-color: #0056b3;
+    background-color: #0056b3;
 }
