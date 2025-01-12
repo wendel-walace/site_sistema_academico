@@ -35,18 +35,16 @@ h2{
 }
 
 #container{
-    display: flex; 
+    flex: 1;
     padding: 20px;
     background-color: rgb(231, 231, 231);
     border-radius:8px;
     border:1px solid #ddd;
     box-shadow:0 4px 6px rgba(0,0,0,0.1);
-    width: 20%;
 }
 
 a{
     display: block;
-    color: #00ff;
 }
 
 #btn-entrar{
@@ -56,8 +54,7 @@ a{
     border: 1px solid rgb(3 47 167);
     font-size: 20px;
     width: 80px;
-    height: 39px;
-    margin-top: 15px;
+    height:35px ;
 }
 
 form{
@@ -76,7 +73,7 @@ input{
     margin-top: 5px; 
     border: 1px solid #ccc; 
     border-radius: 5px;
-    width: 100%;
+    width: 79%;
 }
 
 .Acesso-Estu{
@@ -125,14 +122,12 @@ input{
 .ou{
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     margin: 20px 0;
     gap: 10px;
     font-size: 20px;
     font-weight: bold;
     color: black;
-    width: 19%;
 }
 .ou hr{
     flex: 1;
@@ -147,9 +142,8 @@ input{
 #botao{
     display: inline-flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    background-color: #ccc;
+    background-color: #007bff;
     color: white;
     padding: 10px 20px;
     border: none;
