@@ -6,133 +6,120 @@
     text-decoration: none;
 }
 
-body {
+body{
     margin: 0;
     padding: 0;
     background-color: #fff;
 }
-
-h1 {
+h1{
     color: #0056b3;
     font-size: 30px;
-    background-color: black;
-    padding: 10px;
+    background-color:black;
+    padding:10px;
     margin: 0;
 }
 
-h2 {
+h2{
     padding: 10px;
     margin-inline: 10px;
     font-size: 30px;
     margin: 0;
 }
 
-.container-pai {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
+.container-pai{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+    padding:20px;
 }
 
-#container {
-    display: flex;
+#container{
+    flex: 1;
     padding: 20px;
     background-color: rgb(231, 231, 231);
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 18%;
+    border-radius:8px;
+    border:1px solid #ddd;
+    box-shadow:0 4px 6px rgba(0,0,0,0.1);
 }
 
-a {
+a{
     display: block;
-    color: #00ff;
 }
 
-#btn-entrar {
+#btn-entrar{
     color: #f4f4f4;
     background-color: #0056b3;
     border-radius: 5px;
     border: 1px solid rgb(3 47 167);
     font-size: 20px;
     width: 80px;
-    height: 39px;
-    margin-top: 15px;
+    height:35px ;
 }
 
-form {
+form{
     padding-top: 50px;
     font-size: 20px;
 }
-
-.form-group {
-    margin-bottom: 15px;
+.form-group{
+    margin-bottom:15px;
 }
-
-label {
+label{
     display: block;
     margin-bottom: 5px;
 }
-
-input {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
+input{
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
     border-radius: 5px;
-    width: 100%;
+    width: 79%;
 }
 
-.Acesso-Estu {
-    flex: 1;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #f9f9f9;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 20px;
+.Acesso-Estu{
+    flex:1;
+    background-color:#f9f9f9;
+    padding:20px;
+    border:1px solid #f9f9f9;
+    border-radius:8px;
+    text-align:center;
+    margin-top:20px;
 }
-
-.btn-estu {
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: inherit;
-    cursor: pointer;
-    margin-bottom: 10px;
-    transition: background-color 0.3s ease;
+.btn-estu{
+    background-color:#28a745;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    padding:10px 20px;
+    font-size:20px;
+    font-weight:inherit;
+    cursor:pointer;
+    margin-bottom:10px;
+    transition:background-color 0.3s ease;
 }
-
-.btn-estu:hover {
-    background-color: #218838;
+.btn-estu:hover{
+    background-color:#218838
 }
-
-.Acesso-Estu p {
-    font-size: 20px;
-    color: 555;
-    margin: 10px 0;
+.Acesso-Estu p{
+    font-size:20px;
+    color:555;
+    margin:10px 0;
 }
-
-.btn-rqst {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: inherit;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.btn-rqst{
+    background-color:#007bff;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    padding:10px 20px;
+    font-size:16px;
+    font-weight:inherit;
+    cursor:pointer;
+    transition:background-color 0.3s ease;
 }
-
-.btn-rqst:hover {
-    background-color: #0056b3;
+.btn-rqst:hover{
+    background-color:#0056b3
 }
-
-.ou {
+.ou{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,25 +130,21 @@ input {
     color: black;
     width: 19%;
 }
-
-.ou hr {
+.ou hr{
     flex: 1;
     border: none;
     border-top: 1px solid #ccc;
-    width: 19%;
 }
-
-.govbr-login {
+.govbr-login{
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
-
-#botao {
+#botao{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #007bff;
+    background-color: #ccc;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -172,10 +155,10 @@ input {
     transition: background-color 0.3s ease;
 }
 
-#botao img {
+#botao img{
     margin-left: 10px;
 }
 
-#botao:hover {
-    background-color: #ccc;
+#botao:hover{
+    background-color: #0056b3;
 }
