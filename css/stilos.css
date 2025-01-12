@@ -32,13 +32,11 @@ h2{
     align-items:flex-start;
     gap:20px;
     padding:20px;
-    flex-wrap: wrap;
 }
 
 #container{
     flex: 1;
     padding: 20px;
-    flex-direction: column;
     background-color: rgb(231, 231, 231);
     border-radius:8px;
     border:1px solid #ddd;
