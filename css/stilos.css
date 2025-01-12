@@ -64,16 +64,7 @@ input{
     border-radius: 5px;
     width: 79%;
 }
-div h2{
-    font-size:28px;
-    font-weight:bold;
-    color:#333;
-    text-align:center;
-    margin:20px 0; 
-    padding:10px; 
-    background-color:#fff;
-    border-radius:8px; 
-}
+
 .Acesso-Estu{
     flex:1;
     background-color:#f9f9f9;
