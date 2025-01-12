@@ -35,6 +35,9 @@ h2 {
     gap: 20px;
     padding: 20px;
 }
+section{
+    flex-direction: column;
+}
 
 #container {
     display: flex;
