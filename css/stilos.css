@@ -28,7 +28,6 @@ h2{
 
 .container-pai{
     display:flex;
-    flex-direction: column;
     justify-content:space-between;
     align-items:flex-start;
     gap:20px;
@@ -42,7 +41,7 @@ h2{
     border-radius:8px;
     border:1px solid #ddd;
     box-shadow:0 4px 6px rgba(0,0,0,0.1);
-    width: 18%;
+    width: 20%;
 }
 
 a{
@@ -147,10 +146,10 @@ input{
 }
 #botao{
     display: inline-flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    background-color: #007bff;
+    background-color: #ccc;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -166,5 +165,5 @@ input{
 }
 
 #botao:hover{
-    background-color: #ccc;
+    background-color: #0056b3;
 }
