@@ -25,6 +25,7 @@ h2{
     font-size: 30px;
     margin: 0;
 }
+
 .container-pai{
     display:flex;
     justify-content:space-between;
@@ -32,6 +33,7 @@ h2{
     gap:20px;
     padding:20px;
 }
+
 #container{
     flex: 1;
     padding: 20px;
@@ -40,6 +42,7 @@ h2{
     border:1px solid #ddd;
     box-shadow:0 4px 6px rgba(0,0,0,0.1);
 }
+
 a{
     display: block;
 }
