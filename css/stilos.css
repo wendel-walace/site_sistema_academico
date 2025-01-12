@@ -20,7 +20,7 @@ h1 {
     margin: 0;
 }
 
-h2 {
+.adm-acess{
     padding: 10px;
     margin-inline: 10px;
     font-size: 30px;
@@ -81,6 +81,13 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
+}
+
+h2 {
+    padding: 10px;
+    margin-inline: 10px;
+    font-size: 30px;
+    margin: 0;
 }
 
 .Acesso-Estu {
