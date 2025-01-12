@@ -148,6 +148,7 @@ input {
     flex: 1;
     border: none;
     border-top: 1px solid #ccc;
+    width: 19%;
 }
 
 .govbr-login {
