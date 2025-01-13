@@ -1,3 +1,4 @@
+/* Reset e Configurações Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -12,21 +13,23 @@ body {
     background-color: #fff;
 }
 
+/* Cabeçalho */
 h1 {
     color: #0056b3;
     font-size: 30px;
     background-color: black;
     padding: 10px;
-    margin: 0;
+    text-align: center;
 }
 
-.adm-acess{
+/* Título Acesso Administrativo */
+.adm-acess {
     padding: 10px;
-    margin-inline: 10px;
     font-size: 30px;
-    margin: 0;
+    margin: 10px;
 }
 
+/* Estrutura Principal */
 .container-pai {
     display: flex;
     justify-content: space-between;
@@ -35,34 +38,17 @@ h1 {
     padding: 20px;
 }
 
+/* Formulário de Acesso Administrativo */
 #container {
-    display: flex;
     padding: 20px;
     background-color: rgb(231, 231, 231);
     border-radius: 8px;
     border: 1px solid #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 18%;
-}
-
-a {
-    display: block;
-    color: #00ff;
-}
-
-#btn-entrar {
-    color: #f4f4f4;
-    background-color: #0056b3;
-    border-radius: 5px;
-    border: 1px solid rgb(3 47 167);
-    font-size: 20px;
-    width: 80px;
-    height: 39px;
-    margin-top: 15px;
+    width: 30%; /* Ajuste para alinhar corretamente */
 }
 
 form {
-    padding-top: 50px;
     font-size: 20px;
 }
 
@@ -77,27 +63,36 @@ label {
 
 input {
     padding: 10px;
-    margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
 }
 
-h2 {
-    padding: 10px;
-    margin-inline: 10px;
-    font-size: 30px;
-    margin: 0;
+/* Botão de Entrar */
+#btn-entrar {
+    color: #fff;
+    background-color: #0056b3;
+    border-radius: 5px;
+    border: 1px solid rgb(3, 47, 167);
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
+#btn-entrar:hover {
+    background-color: #004494;
+}
+
+/* Acesso Estudante / Responsável */
 .Acesso-Estu {
     flex: 1;
     background-color: #f9f9f9;
     padding: 20px;
-    border: 1px solid #f9f9f9;
+    border: 1px solid #ddd;
     border-radius: 8px;
     text-align: center;
-    margin-top: 20px;
 }
 
 .btn-estu {
@@ -107,7 +102,6 @@ h2 {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 20px;
-    font-weight: inherit;
     cursor: pointer;
     margin-bottom: 10px;
     transition: background-color 0.3s ease;
@@ -118,8 +112,8 @@ h2 {
 }
 
 .Acesso-Estu p {
-    font-size: 20px;
-    color: 555;
+    font-size: 16px;
+    color: #555;
     margin: 10px 0;
 }
 
@@ -130,59 +124,6 @@ h2 {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 16px;
-    font-weight: inherit;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn-rqst:hover {
-    background-color: #0056b3;
-}
-
-.ou {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    gap: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    width: 19%;
-}
-
-.ou hr {
-    flex: 1;
-    border: none;
-    border-top: 1px solid #ccc;
-    width: 19%;
-}
-
-.govbr-login {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-#botao {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ccc;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#botao img {
-    margin-left: 10px;
-}
-
-#botao:hover {
-    background-color: #ccc;
+    transition: background-color
 }
